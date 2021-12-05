@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lego</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-theme.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type=”text/javascript” src=”https://code.jquery.com/jquery-migrate-1.4.1.min.js”></script>
+</head>
+<body>
+    <div class="carousele">
+        <div class="carousele-element">
+            <center><img src="https://bru-bru.com/wp-content/uploads/2017/06/arctic-1920x1080.jpg"/>
+            </center>
+        </div>
+        <div class="carousele-element">
+            <center><img src="https://i.playground.ru/i/pix/2542484/image.jpg">
+            </center>
+        </div>
+        <div class="carousele-element">
+            <center><img src="https://wallpaperboat.com/wp-content/uploads/2020/06/13/45405/northern-lights-09.jpg">
+            </center>
+        </div>
+    </div>
+
+
+    <div class="carousele">
+        <div >
+            <center><img src="https://cimg2.ibsrv.net/ibimg/hgm/1920x1080-1/100/474/2015-mercedes-benz-c-class_100474370.jpg"></center>
+        </div>
+        <div>
+            <center><img src="https://phonoteka.org/uploads/posts/2021-04/1618521001_38-p-fon-mersedes-41.jpg"></center>
+        </div>
+        <div>
+            <center><img src="http://wpc.carwallpapers.ru/mercedes-benz/2013-gla/Mercedes-Benz-Concept-GLA-2013-1920x1080-007.jpg"></center>
+        </div>
+    </div>
+
+
+<script src="slick.min.js"></script>
+
+<script>
+    $('div').ready(function(){
+    $('.carousele').slick(
+    {
+        arrows: true,
+        autoplay: true,
+    });
+    });
+</script>
+</body>
+</html>
